@@ -3,7 +3,6 @@
     z-index: 2;
     width: 100vw;
     height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
     height: -webkit-fill-available;
     display: flex;
     flex-direction: column;
