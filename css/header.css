@@ -3,7 +3,6 @@
     z-index: 2;
     width: 100vw;
     height: 100vh;
-    height: -webkit-fill-available;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +37,6 @@
     z-index: 3;
     width: 100vw;
     height: 100vh;
-    height: -webkit-fill-available;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
