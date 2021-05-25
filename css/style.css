@@ -1,0 +1,10 @@
+html{
+    font-family: 'Cantarell', sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+a:link, a:visited {
+    color:#006A71;
+}

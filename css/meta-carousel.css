@@ -1,0 +1,62 @@
+.carousel__container, 
+.carousel__item-animation{
+    width: 100vw;
+    position: relative;
+}
+
+.carousel__lista {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel__item-animation{
+    flex: none;
+    height: 100vh;
+    animation-name: item;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.carousel__item-animation img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel__items__item--1{
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+}
+
+.carousel__items__item--2{
+    background-image: url("../img/bg2.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+}
+
+.carousel__items__item--3{
+    background-image: url("../img/bg3.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+}
+
+@keyframes item{
+    0%          {left: 0vw;}
+    16.6667%    {left: 0vw;}
+    33.3333%    {left: -100vw;}
+    50%         {left: -100vw;}
+    66.6667%     {left: -200vw;}
+    83.3333%     {left: -200vw;}
+    100%    {left: -300vw} 
+}

@@ -1,0 +1,113 @@
+.experiencia__container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color:white;
+    text-align: center;  
+    justify-content: center;
+    align-items: center;
+}
+
+.experiencia__header{
+    width: 75vw;
+}
+
+.experiencia__header__titulo{
+    justify-self: center;
+    align-self: center;
+    padding-top: 1em;
+    font-size: 3em;
+    color: #006A71;
+}
+
+.experiencia__header__citacao{
+    font-size: 1.15em;
+    margin: 1em;
+}
+
+
+.experiencia__header__hr{
+    width: 75vw;
+    text-align:center;
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin-bottom: 1.5em;
+    background-image: -webkit-linear-gradient(left, rgb(167, 167, 167), #000, rgb(167, 167, 167));
+    background-image: -moz-linear-gradient(left, rgb(167, 167, 167), #000, rgb(167, 167, 167));
+    background-image: -ms-linear-gradient(left, rgb(167, 167, 167), #000, rgb(167, 167, 167));
+    background-image: -o-linear-gradient(left, rgb(167, 167, 167), #000, rgb(167, 167, 167));
+}
+
+.experiencia__body{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+}
+
+.experiencia__body__titulo{
+    text-align: left;
+    align-self: flex-start;
+    padding-bottom: 1em;
+    color: #006A71;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.experiencia__body__card{
+    display: flex;
+    margin-bottom: 2em;
+    justify-content: space-between;
+}
+.experiencia__body__card:last-child{
+    margin-bottom: 1em;
+}
+
+.experiencia__body__card__esquerda{
+    width: 30%;
+    text-align: left;
+    font-size: 1.25em;
+}
+
+.experiencia__body__card__direita{
+    width: 60%;
+    text-align: left;
+    font-size: 1.25em;
+}
+
+@media screen and (max-width: 992px) {
+
+    .experiencia__header__titulo{
+        font-size: 2em;
+   
+        text-align: center;
+        justify-items: center;
+    }
+
+    .experiencia__header{
+        width: 100vw;
+    }
+
+    .experiencia__body{
+        width: 100vw;
+    }
+
+    .experiencia__body__titulo{
+        align-self: center;
+    }
+
+    .experiencia__body__card{
+        flex-direction: column;
+    }
+
+     .experiencia__body__card__esquerda{
+        width: 100%;
+
+    }
+    .experiencia__body__card__direita{
+        width: 100%;
+ 
+        
+    }
+}

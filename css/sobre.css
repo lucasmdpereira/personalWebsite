@@ -1,0 +1,109 @@
+.sobre__container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color: #ffffdd;
+    text-align: center;  
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre__header{
+    width: 75vw;
+}
+
+.sobre__header__titulo{
+    justify-self: center;
+    align-self: center;
+    font-size: 3em;
+    color: #006A71;
+    padding: 1em 0 0 0;
+}
+
+.sobre__header__citacao{
+    font-size: 1.15em;
+    margin: 1em;
+}
+
+.sobre__header__hr{
+    width: 75vw;
+    text-align:center;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, rgb(167, 167, 167), #000, rgb(167, 167, 167));
+    background-image: -moz-linear-gradient(left, rgb(167, 167, 167), #000, rgb(167, 167, 167));
+    background-image: -ms-linear-gradient(left, rgb(167, 167, 167), #000, rgb(167, 167, 167));
+    background-image: -o-linear-gradient(left, rgb(167, 167, 167), #000, rgb(167, 167, 167));
+}
+
+.sobre__body{
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.sobre__body__card{
+    margin: 0 0 0 1em;
+    align-items:flex-end;
+}
+
+.sobre__card__foto{
+    width: 100%;
+    border-color:#006A71;;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 0.5em;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    align-self: center;
+    margin-bottom: 1em;
+}
+
+.sobre__card__redesSociais{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1em;
+}
+
+.sobre__card__container{
+    padding-left: 2.5em;
+}
+
+.sobre__card__icones{
+    padding: 0em 1em;
+}
+
+.sobre__card__emoji{
+    font-size: 2em;
+}
+
+.sobre__card__texto{
+    text-align: left;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+@media screen and (max-width: 800px) {
+    .sobre__body{
+        flex-direction: column;
+    }
+    .sobre__card__container{
+        order: -1;
+        padding: 0 0 1em 0;
+    }
+
+    .sobre__header{
+        width: 100vw;
+    }
+
+    .sobre__body{
+        width: 100vw;
+    }
+
+    .sobre__card__foto{
+        width: 30vw;
+    }
+}
